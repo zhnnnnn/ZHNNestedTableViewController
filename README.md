@@ -6,23 +6,33 @@
  ## 0x0 结构
  嵌套首页的一般结构如下：
  -- tableView
+ 
   -- section1
+  
    -- cells
+   
   -- section2
+  
    -- cell
+   
     -- pageControl
+    
     -- pageScrollView
+    
      -- tableViews
+     
      
  ## 0x1 使用
  1.ViewController继承`ZHNNestedPageViewController`
- 2.针对上面tableView section1部分的数据实现如下方法
- ```- (NSInteger)ZHNNestedPageNumOfRowsInMainTableView:(UITableView *)tableView;
  
-    - (CGFloat)ZHNNestedPageMainTableView:(UITableView *)tableView heightForRow:(NSInteger)row;
+ 2.针对上面tableView section1部分的数据实现如下方法
+
+` - (NSInteger)ZHNNestedPageNumOfRowsInMainTableView:(UITableView *)tableView;`
+ 
+` - (CGFloat)ZHNNestedPageMainTableView:(UITableView *)tableView heightForRow:(NSInteger)row;`
     
-    - (UITableViewCell *)ZHNNestedPageMainTableView:(UITableView *)tableView cellforRow:(NSInteger)row;
- ```
+` - (UITableViewCell *)ZHNNestedPageMainTableView:(UITableView *)tableView cellforRow:(NSInteger)row;`
+
  
  3.针对下半部分section2的数据需要实现一个继承自`ZHNNestedPageTableViewCell`的cell
  
