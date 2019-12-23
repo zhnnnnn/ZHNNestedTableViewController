@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZHNNestedPageViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : ZHNNestedPageViewController
 
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		976C21AD9CB1C3D1BEA40916 /* libPods-ZHNNestedTableViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D68C35E32B25DB9F40C442AF /* libPods-ZHNNestedTableViewController.a */; };
 		CD23209523AC79F7008D2836 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD23209423AC79F7008D2836 /* AppDelegate.m */; };
 		CD23209823AC79F7008D2836 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD23209723AC79F7008D2836 /* SceneDelegate.m */; };
 		CD23209B23AC79F7008D2836 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD23209A23AC79F7008D2836 /* ViewController.m */; };
@@ -16,6 +17,9 @@
 		CD2320A623AC79FB008D2836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2320A523AC79FB008D2836 /* main.m */; };
 		CD2320B023AC79FB008D2836 /* ZHNNestedTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2320AF23AC79FB008D2836 /* ZHNNestedTableViewControllerTests.m */; };
 		CD2320BB23AC79FB008D2836 /* ZHNNestedTableViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2320BA23AC79FB008D2836 /* ZHNNestedTableViewControllerUITests.m */; };
+		CD2320CD23ACAE83008D2836 /* ZHNNestedPageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2320CC23ACAE83008D2836 /* ZHNNestedPageTableViewCell.m */; };
+		CD246BD023B0B998000F0296 /* ZHNNestedPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD246BCF23B0B998000F0296 /* ZHNNestedPageViewController.m */; };
+		CD4368EB23B0C2BC00334AB1 /* DemoTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4368EA23B0C2BC00334AB1 /* DemoTestTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A3A2310129C744ACACAD2B0 /* Pods-ZHNNestedTableViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHNNestedTableViewController.debug.xcconfig"; path = "Target Support Files/Pods-ZHNNestedTableViewController/Pods-ZHNNestedTableViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		CD23209023AC79F7008D2836 /* ZHNNestedTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHNNestedTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD23209323AC79F7008D2836 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD23209423AC79F7008D2836 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +59,14 @@
 		CD2320B623AC79FB008D2836 /* ZHNNestedTableViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNNestedTableViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2320BA23AC79FB008D2836 /* ZHNNestedTableViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNNestedTableViewControllerUITests.m; sourceTree = "<group>"; };
 		CD2320BC23AC79FB008D2836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2320CB23ACAE83008D2836 /* ZHNNestedPageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHNNestedPageTableViewCell.h; sourceTree = "<group>"; };
+		CD2320CC23ACAE83008D2836 /* ZHNNestedPageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNNestedPageTableViewCell.m; sourceTree = "<group>"; };
+		CD246BCE23B0B998000F0296 /* ZHNNestedPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHNNestedPageViewController.h; sourceTree = "<group>"; };
+		CD246BCF23B0B998000F0296 /* ZHNNestedPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNNestedPageViewController.m; sourceTree = "<group>"; };
+		CD4368E923B0C2BC00334AB1 /* DemoTestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoTestTableViewCell.h; sourceTree = "<group>"; };
+		CD4368EA23B0C2BC00334AB1 /* DemoTestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTestTableViewCell.m; sourceTree = "<group>"; };
+		D68C35E32B25DB9F40C442AF /* libPods-ZHNNestedTableViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHNNestedTableViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91947D3BD89D956E47BA6FB /* Pods-ZHNNestedTableViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHNNestedTableViewController.release.xcconfig"; path = "Target Support Files/Pods-ZHNNestedTableViewController/Pods-ZHNNestedTableViewController.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				976C21AD9CB1C3D1BEA40916 /* libPods-ZHNNestedTableViewController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C48BB77B03ED66DC25D2AC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D68C35E32B25DB9F40C442AF /* libPods-ZHNNestedTableViewController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A800BC434DEB0A809B87AE23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A3A2310129C744ACACAD2B0 /* Pods-ZHNNestedTableViewController.debug.xcconfig */,
+				D91947D3BD89D956E47BA6FB /* Pods-ZHNNestedTableViewController.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CD23208723AC79F7008D2836 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +119,8 @@
 				CD2320AE23AC79FB008D2836 /* ZHNNestedTableViewControllerTests */,
 				CD2320B923AC79FB008D2836 /* ZHNNestedTableViewControllerUITests */,
 				CD23209123AC79F7008D2836 /* Products */,
+				A800BC434DEB0A809B87AE23 /* Pods */,
+				5C48BB77B03ED66DC25D2AC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +143,9 @@
 				CD23209723AC79F7008D2836 /* SceneDelegate.m */,
 				CD23209923AC79F7008D2836 /* ViewController.h */,
 				CD23209A23AC79F7008D2836 /* ViewController.m */,
+				CD4368E923B0C2BC00334AB1 /* DemoTestTableViewCell.h */,
+				CD4368EA23B0C2BC00334AB1 /* DemoTestTableViewCell.m */,
+				CD4368EC23B0C5A600334AB1 /* ZHNNestedPageViewController */,
 				CD23209C23AC79F8008D2836 /* Main.storyboard */,
 				CD23209F23AC79FB008D2836 /* Assets.xcassets */,
 				CD2320A123AC79FB008D2836 /* LaunchScreen.storyboard */,
@@ -137,6 +173,17 @@
 			path = ZHNNestedTableViewControllerUITests;
 			sourceTree = "<group>";
 		};
+		CD4368EC23B0C5A600334AB1 /* ZHNNestedPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD246BCE23B0B998000F0296 /* ZHNNestedPageViewController.h */,
+				CD246BCF23B0B998000F0296 /* ZHNNestedPageViewController.m */,
+				CD2320CB23ACAE83008D2836 /* ZHNNestedPageTableViewCell.h */,
+				CD2320CC23ACAE83008D2836 /* ZHNNestedPageTableViewCell.m */,
+			);
+			path = ZHNNestedPageViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD2320BF23AC79FB008D2836 /* Build configuration list for PBXNativeTarget "ZHNNestedTableViewController" */;
 			buildPhases = (
+				DA5C7B2312195EFFA98BBD88 /* [CP] Check Pods Manifest.lock */,
 				CD23208C23AC79F7008D2836 /* Sources */,
 				CD23208D23AC79F7008D2836 /* Frameworks */,
 				CD23208E23AC79F7008D2836 /* Resources */,
@@ -262,15 +310,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DA5C7B2312195EFFA98BBD88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZHNNestedTableViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD23208C23AC79F7008D2836 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2320CD23ACAE83008D2836 /* ZHNNestedPageTableViewCell.m in Sources */,
 				CD23209B23AC79F7008D2836 /* ViewController.m in Sources */,
 				CD23209523AC79F7008D2836 /* AppDelegate.m in Sources */,
+				CD4368EB23B0C2BC00334AB1 /* DemoTestTableViewCell.m in Sources */,
 				CD2320A623AC79FB008D2836 /* main.m in Sources */,
 				CD23209823AC79F7008D2836 /* SceneDelegate.m in Sources */,
+				CD246BD023B0B998000F0296 /* ZHNNestedPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +513,7 @@
 		};
 		CD2320C023AC79FB008D2836 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A3A2310129C744ACACAD2B0 /* Pods-ZHNNestedTableViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +530,7 @@
 		};
 		CD2320C123AC79FB008D2836 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D91947D3BD89D956E47BA6FB /* Pods-ZHNNestedTableViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
